@@ -12,7 +12,8 @@ This is a simple application that requests its data from [OpenWeather](https://o
 - unit tests for service class
 - exception handling
 - changed project structure
-etc
+- swagger API
+- etc
 
 
 ### Assumptions 
@@ -22,4 +23,4 @@ etc
 - BigDecimal  can be used instead double to avoid of unpredicted rounding
 - added application-prod.properties to highlight that some sensitive properties can be substituted during deployment
 
-P.S. Do not forget to add appid in application.properties
+P.S. Update *appid in application.properties to be able to run the service
